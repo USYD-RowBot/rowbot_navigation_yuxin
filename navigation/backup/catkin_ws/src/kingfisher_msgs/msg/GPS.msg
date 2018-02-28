@@ -1,3 +1,0 @@
-float64 GPS_receivedTime
-float64 GPS_latitude
-float64 GPS_longitude
