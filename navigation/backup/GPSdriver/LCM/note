@@ -1,0 +1,11 @@
+Install LCM:
+
+	delete lock (https://askubuntu.com/questions/15433/unable-to-lock-the-administration-directory-var-lib-dpkg-is-another-process)
+	
+	update to glib 2.0 (sudo apt-get install libglib2.0-dev) 
+	
+	./configure
+	make
+	sudo make install
+
+	sudo ldconfig (after a new installation)
