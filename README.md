@@ -16,6 +16,7 @@ Manual control is written in high-level ROS to control the throttle and rotation
 Autonomous navigation starts with receiving current GPS coordinate, then comparing the current position with first waypoint, if the distance is larger than threshold, a target heading to the waypoint is computed, then PID controller adjusts the throttle of each motor to reach target heading. When the target waypoint is reached, the next waypoint is set. The last waypoint in the list will be the point for POS hold. core_nav.py stores core navigation logic which is wrapped up as a class to be called by nav.py.
 
 A typical interface of the Kingfisher navigation services is as below:
+
 ![Screenshot](navigation/backup/screenshot/YuxinScreenshot4-cropped.png?raw=true "Screenshot")
 
 ## Kingfisher ##
