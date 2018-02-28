@@ -1,0 +1,10 @@
+Requires catkin workspace to work.
+
+After configured a catkin workspace:
+	
+	sudo chmod  777 /dev/ttyACM0
+	cd catkin_ws/
+	catkin_make
+	source ./devel/setup.bash
+	rosrun YOUR_WORKSPACE talker.py
+

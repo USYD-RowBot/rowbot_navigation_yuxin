@@ -1,0 +1,2 @@
+float64 compass_receivedTime
+float64 compass_heading

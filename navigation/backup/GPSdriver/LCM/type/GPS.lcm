@@ -1,0 +1,12 @@
+package GPS;
+
+struct GPS_t
+{
+	int64_t utime;
+	double latitude;
+	double longitude;
+	int8_t south;
+	int8_t north;
+	int8_t east;
+	int8_t west;
+}
